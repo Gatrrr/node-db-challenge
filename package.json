@@ -1,0 +1,31 @@
+{
+  "name": "node-db-challenge",
+  "version": "1.0.0",
+  "description": "In this challenge, you design and build a Data Model and a RESTful API that stores data into a Relational Database.",
+  "main": "index.js",
+  "dependencies": {
+    "3": "^2.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "knex": "^0.20.1",
+    "sqlite": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gatrrr/node-db-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gatrrr/node-db-challenge/issues"
+  },
+  "homepage": "https://github.com/Gatrrr/node-db-challenge#readme"
+}
