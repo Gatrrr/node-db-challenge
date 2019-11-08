@@ -52,6 +52,8 @@ In order to uniquely identify rows in a certain table
 
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
 
+Two tables need to have a many to one relationship. The previous said tables then can be said to have a many to many relationship.
+
 ## Minimum Viable Product
 
 Take the steps necessary to complete the project from scratch. Start by initializing your project with a `package.json` and go from there.

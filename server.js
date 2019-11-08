@@ -9,6 +9,7 @@ const server = express();
 server.use(helmet())
 server.use(express.json());
 server.use('/api/projects', projectRouter);
+server.use('/api/resource', resourceRouter);
 
 server.get("/", (req, res) => {
     res.send("hello server better live....")
